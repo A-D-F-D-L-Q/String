@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>String</title>
+</head>
+<body>
+    
+    <form>
+        Name : <input type="text" name="uname" id="userid" required><br><br>
+        <input type="button" value="Count characters" onclick="characterCounter()">
+    </form>
+
+
+
+
+
+    <script>
+        /*--string variable---*/
+        // var name = "Akash kumar"
+        // document.write("My name is : "+name)
+        /*--Backtick--*/
+        // var address = `Ashok Nagar`
+        // alert(`Address : ${address}`)
+        
+        
+
+        function characterCounter()
+        {
+            var data = document.getElementById("userid").value
+            /* */
+            var counter = data.length
+            alert("Data is : "+data+"\n NO. characters : "+counter)
+        }
+    </script>
+</body>
+</html> 
